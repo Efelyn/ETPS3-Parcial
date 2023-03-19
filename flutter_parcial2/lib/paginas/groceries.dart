@@ -121,7 +121,7 @@ class _ComidaState extends State<Comida> {
                           decoration: BoxDecoration(
                               shape: BoxShape.rectangle,
                               image: DecorationImage(
-                                  image: NetworkImage(cocina[index]['img']),
+                                  image: NetworkImage(comida[index]['img']),
                                   fit: BoxFit.cover)),
                         ),
                         SizedBox(
@@ -134,7 +134,7 @@ class _ComidaState extends State<Comida> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                cocina[index]['name'],
+                                comida[index]['name'],
                                 style: TextStyle(
                                     fontSize: 16,
                                     color: white,
